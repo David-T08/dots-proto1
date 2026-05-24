@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="80" height="40"
+     viewBox="0 0 80 40">
+  <g fill="#FFFFFF">
+    <polygon points="-40,40 -16,40 24,0 0,0"/>
+    <polygon points="0,40 24,40 64,0 40,0"/>
+    <polygon points="40,40 64,40 104,0 80,0"/>
+  </g>
+</svg>
