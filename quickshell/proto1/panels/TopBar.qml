@@ -4,13 +4,13 @@ import Quickshell.Wayland
 
 import QtQuick.Effects
 
+import "../popups/AltTab"
 import "../components/workspace"
-import "../components/centerInfo"
+import "../components/centerinfo"
 import "../components/systemtray"
 import "../components/systeminfo"
 import "../components/systemcontrol"
 import "../components/musiccontrol"
-import "../components"
 import ".."
 
 PanelWindow {

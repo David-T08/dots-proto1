@@ -8,13 +8,16 @@ import "panels"
 Variants {
     model: Quickshell.screens
 
-    TopBar {
-        id: topbar
-        screen: modelData
+    Scope {
+        id: root
+        
+        required property var modelData
+        property var screen: modelData
 
-        // AltTab {
-        //     anchor.window: topbar
-        //     visible: true
-        // }
+        TopBar {
+            modelData: root.screen
+            screen: root.screen
+            id: topbar
+        }
     }
 }

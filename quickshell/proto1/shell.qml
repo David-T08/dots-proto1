@@ -5,6 +5,7 @@ import Quickshell.Services.Mpris
 import QtQuick
 
 import "./components/systeminfo"
+import "./panels"
 
 ShellRoot {
     id: sroot
@@ -48,4 +49,5 @@ ShellRoot {
     }
 
     Main {}
+    Floating {}
 }
